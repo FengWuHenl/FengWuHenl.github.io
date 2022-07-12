@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Github + Hexo 搭建个人博客教程</title>
+    <link href="/2022/07/12/Github-Hexo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <url>/2022/07/12/Github-Hexo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h3 id="很多人都想搭一个属于自己的博客，用于记录学习心得。但苦于技术有限，什么前端后端、css、服务器、域名、备案等等一大堆乱七八糟，搞得头都要昏。这些对于小白来说真的太难了-x2F-ㄒoㄒ-x2F-，那有没有不需要购买什么服务器、域名、小白就能搭的博客呢？"><a href="#很多人都想搭一个属于自己的博客，用于记录学习心得。但苦于技术有限，什么前端后端、css、服务器、域名、备案等等一大堆乱七八糟，搞得头都要昏。这些对于小白来说真的太难了-x2F-ㄒoㄒ-x2F-，那有没有不需要购买什么服务器、域名、小白就能搭的博客呢？" class="headerlink" title="很多人都想搭一个属于自己的博客，用于记录学习心得。但苦于技术有限，什么前端后端、css、服务器、域名、备案等等一大堆乱七八糟，搞得头都要昏。这些对于小白来说真的太难了&#x2F;(ㄒoㄒ)&#x2F;~~，那有没有不需要购买什么服务器、域名、小白就能搭的博客呢？"></a>很多人都想搭一个属于自己的博客，用于记录学习心得。但苦于技术有限，什么前端后端、css、服务器、域名、备案等等一大堆乱七八糟，搞得头都要昏。这些对于小白来说真的太难了&#x2F;(ㄒoㄒ)&#x2F;~~，那有没有不需要购买什么服务器、域名、小白就能搭的博客呢？</h3><hr><h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a><strong>一、准备工作</strong></h3><h4 id="1-GitHub-pages"><a href="#1-GitHub-pages" class="headerlink" title="1. GitHub pages"></a><strong>1. GitHub pages</strong></h4><ul><li>注册 Gtihub 帐号</li><li>创建仓库</li></ul><h4 id="2-安装运行环境"><a href="#2-安装运行环境" class="headerlink" title="2. 安装运行环境"></a><strong>2. 安装运行环境</strong></h4><ul><li><p>git官网：<a href="https://git-scm.com/">https://git-scm.com/</a></p></li><li><p>nodejs官网：<a href="https://nodejs.org/en/">https://nodejs.org/en/</a></p></li></ul><hr><h4 id="1-1-注册-GitHub-帐号-跳过"><a href="#1-1-注册-GitHub-帐号-跳过" class="headerlink" title="1.1 注册 GitHub 帐号(跳过)"></a><strong>1.1 注册 GitHub 帐号(跳过)</strong></h4><h4 id="1-2-创建一个仓库"><a href="#1-2-创建一个仓库" class="headerlink" title="1.2 创建一个仓库"></a><strong>1.2 创建一个仓库</strong></h4><p>打开 GitHub 并登录，点击头像旁的 ‘+’号，选择 <strong>new repository</strong>,注意仓库名应这样填写: <strong>用户名.github.io</strong>,这就是你的域名，在浏览器地址栏输入，即可访问你的博客。然后点击底部 <strong>Create repository</strong> 完成创建。</p><hr><h4 id="2-1-安装-git"><a href="#2-1-安装-git" class="headerlink" title="2.1 安装 git"></a><strong>2.1 安装 git</strong></h4><p>打开官网，选择版本。点击下载，下载完毕后，按提示安装即可。（不懂如何安装可以百度）</p><p>安装完毕后，打开 <strong>cmd</strong> 输入   git –version<br>若出现版本号说明成功，若提示“不是外部命令，也不是可执行程序“,需要手动配置环境变量。</p><ul><li>右击 <strong>桌面计算机图标</strong> –&gt;&gt; 选择 <strong>属性</strong> –&gt;&gt; 找到并点击 <strong>高级系统设置</strong> –&gt;&gt; 点击  <strong>高级</strong> –&gt;&gt; 点击下面的 <strong>环境变量</strong> –&gt;&gt; 选中**’PATH’变量** –&gt;&gt; 点击 <strong>编辑</strong> –&gt;&gt; <strong>新建</strong> –&gt;&gt; 将 git 目录下的 bin 文件夹路径 [F:\Git\bin] 输入进去，点击确定即可。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>blog</category>
+      
+      <category>hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>这是一篇测试文章</title>
     <link href="/2022/07/10/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2022/07/10/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
