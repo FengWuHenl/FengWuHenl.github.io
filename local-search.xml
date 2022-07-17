@@ -4,7 +4,34 @@
   
   
   <entry>
-    <title>GitHub + PicGo 搭建免费图床</title>
+    <title>Hexo Fluid主题 添加网站运行时间</title>
+    <link href="/2022/07/17/Hexo-Fluid%E4%B8%BB%E9%A2%98-%E6%B7%BB%E5%8A%A0%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/"/>
+    <url>/2022/07/17/Hexo-Fluid%E4%B8%BB%E9%A2%98-%E6%B7%BB%E5%8A%A0%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    
+    <content type="html"><![CDATA[<h4 id="安装了Fluid主题-博客添加-网站运行时间"><a href="#安装了Fluid主题-博客添加-网站运行时间" class="headerlink" title="安装了Fluid主题 博客添加 网站运行时间"></a>安装了Fluid主题 博客添加 <strong>网站运行时间</strong></h4><p>使用编辑器打开                                    <strong>F:\Hexo\themes\fluid\layout\ _partials\footer.ejs</strong> 文件，添加如下代码</p><pre><code class="hljs">&lt;span id=&quot;timeDate&quot;&gt;载入天数...&lt;/span&gt;&lt;span id=&quot;times&quot;&gt;载入时分秒...&lt;/span&gt;&lt;script&gt;  var now = new Date();   function createtime() &#123;       var grt= new Date(&quot;07/07/2002 13:00:00&quot;);//在此处修改你的建站时间      now.setTime(now.getTime()+250);       days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);       hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);       if(String(hnum).length ==1 )&#123;hnum = &quot;0&quot; + hnum;&#125; minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);       mnum = Math.floor(minutes); if(String(mnum).length ==1 )&#123;mnum = &quot;0&quot; + mnum;&#125;       seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);       snum = Math.round(seconds); if(String(snum).length ==1 )&#123;snum = &quot;0&quot; + snum;&#125;       document.getElementById(&quot;timeDate&quot;).innerHTML = &quot;本站已安全运行 &quot;+dnum+&quot; 天 &quot;;       document.getElementById(&quot;times&quot;).innerHTML = hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;;   &#125;     setInterval(&quot;createtime()&quot;,250);&lt;/script&gt;</code></pre><p>打开博客在下面可以看到网站运行时间了，满满的成就感</p><p><img src="https://cdn.jsdelivr.net/gh/FengWuHenl/Image@main/Image/20220717143833.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+      <category>Theme</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Fluid</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GitHub + PicGo + jsDelivr 搭建免费高速稳定图床</title>
     <link href="/2022/07/15/GitHub-PicGo-%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/"/>
     <url>/2022/07/15/GitHub-PicGo-%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A/</url>
     
